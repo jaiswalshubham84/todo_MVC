@@ -1,0 +1,168 @@
+
+body {
+    height :100%;
+    width: 100%;
+    background-color:rgba(241, 241, 241, 0.73);
+
+}
+.overlay {
+    opacity: 0;
+    transition: .5s ease;
+    }
+    .cc:hover .overlay {
+    opacity: 1;
+    }
+.glyphicon-chevron-down{
+visibility: hidden;
+color: rgba(85, 83, 83,0.2);
+}
+
+
+#footer{
+   padding:10px;padding-left:0% ;font-size: 14px;  height:40px; 
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2), 0 8px 0 -3px #f6f6f6 ,
+    0 9px 1px -3px rgba(0, 0, 0, 0.2), 0 16px 0 -6px #f6f6f6 ,
+    0 17px 2px -6px rgba(0, 0, 0, 0.2);
+}
+
+.glyphicon {
+font-size: 18px;
+margin-left: 0%;
+
+margin-right: 2%;
+
+font-weight: 100;
+margin-bottom: 10px;
+}
+.editt:hover{
+    color:black;
+}
+.editt{
+    color:rgba(85, 83, 83, 0.51);
+    height:40px;
+
+}
+
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+color:#E6E6E6;
+font-size: 25px;
+font-weight: 100;
+}
+::-moz-placeholder { /* Firefox 19+ */
+color: #E6E6E6;
+font-size: 25px;
+
+}
+:-ms-input-placeholder { /* IE 10+ */
+color: v;
+font-size: 25px;
+}
+:-moz-placeholder { /* Firefox 18- */
+color: #E6E6E6;
+font-size: 25px;
+}
+p{
+    font-size: 100px;font-weight: 100;text-align: center; color:#ECD1D4;
+}
+span{
+margin-left: 5%;
+font-weight: 300;
+font-size:24px;
+vertical-align: middle;
+} 
+.closee{
+height: 45px;
+width: 45px;
+color:  rgba(255, 0, 0, 0.39); 
+font-size: 35px;
+margin-bottom: 20%;
+margin-left:20%;
+
+}
+.closee:hover{
+    color:red; 
+}
+a{
+  text-decoration:none;
+  color:black;
+  display:inline;
+  font-weight: 100;
+  font-size: 15px;
+}
+a:hover{
+    text-decoration: underline;
+}
+a:active{
+    text-decoration: underline;
+}
+button{
+background-color: transparent;
+border:none;
+font-weight: 100;
+font-size: 15px;
+border: 1px solid transparent; 
+}
+button:hover{
+border: 1px solid transparent; 
+border: 1px solid pink;
+}
+button:active{
+border: 1px solid pink;
+}
+button:focus { 
+outline:none;
+border: 1px solid pink; }
+#ide{
+background-color:#FFFFFF;
+border-top: 1px groove rgba(245, 245, 245, 0.19);
+width:100%;
+
+}
+#dis{
+font-weight: 100;
+font-size: 15px;
+float: left;
+}
+input[type=checkbox] {
+border: 1px solid transparent !important; 
+ }
+input:focus {
+outline: none;}
+#in{
+background-color: transparent;
+border: 0px solid;
+font-weight :300;
+font-size: 23px;
+color: rgba(0, 0, 0, 0.81);
+width:85%;
+
+}
+
+.cc{
+height: 58px;
+font-size: 18px;
+color: rgba(15, 15, 15, 0.75);
+padding: 9px;
+padding-left: 0%;
+border-top: none;
+border-bottom: 1px groove rgba(245, 245, 245, 0.19);
+
+
+
+
+
+background-color:#FFFFFF;
+
+}
+
+
+#section{
+
+background-color:#FFFFFF;
+
+
+box-shadow: 10px 15px 15px rgba(15, 15, 15, 0.64);
+
+
+}

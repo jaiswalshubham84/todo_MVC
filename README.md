@@ -1,0 +1,1 @@
+# A TODO app built with the help of html, css and javascript and structure via MVC pattern
